@@ -153,11 +153,44 @@
             "product_button_url": "",
             "product_color_scheme": "background-3"
           }
+        },
+        "collection_X4gXXb": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_heading": "Collection Heading",
+            "collection_heading_size": "h6",
+            "collection_sub_heading": "<p>Design your own collection of highlights.<\/p>",
+            "collection_sub_heading_size": "h3",
+            "collection_vertical_alignment": "left",
+            "container_alignment": "Bottom_left",
+            "transparent": true,
+            "collection_button": "Shop Now",
+            "collection_button_url": "",
+            "collection_color_scheme": "background-3"
+          }
+        },
+        "image_WYNYp6": {
+          "type": "image",
+          "settings": {
+            "image_heading": "Image Heading",
+            "image_heading_size": "h6",
+            "image_sub_heading": "<p>Design your own image of highlights.<\/p>",
+            "image_sub_heading_size": "h3",
+            "image_vertical_alignment": "left",
+            "image_container_alignment": "Bottom_left",
+            "image_transparent": true,
+            "image_button": "Shop Now",
+            "image_button_url": "",
+            "image_color_scheme": "background-3"
+          }
         }
       },
       "block_order": [
         "collection_NEtbYf",
-        "product_dFcWmL"
+        "product_dFcWmL",
+        "collection_X4gXXb",
+        "image_WYNYp6"
       ],
       "settings": {
         "heading": "Grid Collection",
