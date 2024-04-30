@@ -1,0 +1,26 @@
+<predictive-search>
+  <form action="{{ routes.search_url }}" method="get" role="search" class="page-width">
+    <label for="Search" class="sr-only">Search</label>
+    <div class="flex w-full justify-center pb-6">
+      <input
+        id="Search"
+        type="search"
+        name="q"
+        value="{{ search.terms | escape }}"
+        role="combobox"
+        aria-expanded="false"
+        aria-owns="predictive-search-results"
+        aria-controls="predictive-search-results"
+        aria-haspopup="listbox"
+        aria-autocomplete="list"
+        class="input bg-transparent border w-full md:max-w-screen-sm"
+      >
+      <button type="submit" class="button button-primary">
+        {% render 'icon-search' %}
+      </button>
+      <input name="options[prefix]" type="hidden" value="last">
+    </div>
+
+    <div id="predictive-search" tabindex="-1"></div>
+  </form>
+</predictive-search>

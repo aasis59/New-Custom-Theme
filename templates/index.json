@@ -1,0 +1,96 @@
+{
+    "sections": {
+        "slideshow": {
+            "type": "slideshow",
+            "blocks": {
+                "slide1": {
+                    "type": "slide",
+                    "settings": {
+                        "content_position": "bottom_center",
+                        "color_scheme": "background-2",
+                        "image_opacity": 0.7,
+                        "container": false
+                    }
+                },
+                "slide2": {
+                    "type": "slide",
+                    "settings": {
+                        "content_position": "left",
+                        "alignment": "left",
+                        "color_scheme": "background-1"
+                    }
+                }
+            },
+            "block_order": [
+                "slide1",
+                "slide2"
+            ]
+        },
+        "featured_collection": {
+            "type": "featured-collection",
+            "blocks": {
+                "vendor": {
+                    "type": "vendor"
+                },
+                "title": {
+                    "type": "title"
+                },
+                "price": {
+                    "type": "price"
+                }
+            },
+            "block_order": [
+                "vendor",
+                "title",
+                "price"
+            ]
+        },
+        "hotspots": {
+            "type": "image-hotspots"
+        },
+        "image_and_text": {
+            "type": "text-and-image",
+            "blocks": {
+                "image": {
+                    "type": "image"
+                },
+                "text": {
+                    "type": "text",
+                    "settings": {
+                        "color_scheme": "inverse"
+                    }
+                }
+            },
+            "block_order": [
+                "image",
+                "text"
+            ]
+        },
+        "multicolumn": {
+            "type": "multi-column",
+            "blocks": {
+                "column_1": {
+                    "type": "column"
+                },
+                "column_2": {
+                    "type": "column"
+                },
+                "column_3": {
+                    "type": "column"
+                }
+            },
+            "block_order": [
+                "column_1",
+                "column_2",
+                "column_3"
+            ]
+        }
+    },
+    "order": [
+        "slideshow",
+        "featured_collection",
+        "image_and_text",
+        "hotspots",
+        "multicolumn"
+    ]
+}
